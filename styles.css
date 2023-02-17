@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.square {
+  width: 200px;
+  height: 250px;
+  border: solid;
+  margin: 5px;
+  cursor: pointer;
+  background-color: lightyellow;
+  border: solid 0.5px lightgray;
+  font-family: "Patrick Hand", cursive;
+}
+
+.squares-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.checked {
+  background-color: lightblue;
+}
+
+#main-heading {
+  background-color: yellow;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+  max-width: 250px;
+  max-height: 250px;
+  background-color: lightyellow;
+  padding: 5px;
+  text-align: center;
+  border: solid 0.1px lightgray;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 1px;
+}
+
+.create-note-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 0.5px lightgray;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(189, 182, 182);
+  transition: ease 0.5s;
+}
+
+p {
+  font-size: 15px;
+}
